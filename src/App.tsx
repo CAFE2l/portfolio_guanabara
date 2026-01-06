@@ -232,7 +232,46 @@ function App() {
 
             <article id="formacao">
               <h2><i className="fa-solid fa-graduation-cap"></i>Formação</h2>
+                <div id="formacao-container">
+                    <div className="curso">
+                      <p className="periodo">1991 - 1994</p>
+                      <h3 className="Instituição">escola técnica Carioca</h3>
+                      <p className="titulacao">Técnico em informática</p>
 
+                    </div>
+
+
+                     <div className="curso">
+                      <p className="periodo">1995 - 2000</p>
+                      <h3 className="Instituição">Instituto Superior de Tecnologia</h3>
+                      <p className="titulacao">Bacharelado em Ciência da Computação</p>
+                    </div>
+
+                    <div className="curso">
+                      <p className="periodo">1998 - 2000</p>
+                      <h3 className="Instituição">Centro de Graduação de Professores</h3>
+                      <p className="titulacao">Licenciatura em Informática</p>
+                    </div>
+
+
+                    <div className="curso">
+                      <p className="periodo">2001 - 2003</p>
+                      <h3 className="Instituição">Laboratório de Docência Superior</h3>
+                      <p className="titulacao">Docência para Ensino Superior Profissional</p>
+                    </div>
+
+                     <div className="curso">
+                      <p className="periodo">2009 - 2010</p>
+                      <h3 className="Instituição">Fundação para Ensino à Distância</h3>
+                      <p className="titulacao">Especialização para produção em ambientes EAD</p>
+                    </div>
+
+                     <div className="curso">
+                      <p className="periodo">2021 - 2024</p>
+                      <h3 className="Instituição">Centro de Inteligência Artificial</h3>
+                      <p className="titulacao">Técnicas para aplicação de IA's</p>
+                    </div>
+                </div>
             </article>
 
             <article id="projetos">
