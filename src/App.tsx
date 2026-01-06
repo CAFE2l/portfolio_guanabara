@@ -85,6 +85,149 @@ function App() {
             </article>  
             <article id="skills">
                 <h2><i className="fa-solid fa-brain"></i> Minhas Skills</h2>
+                <div className="skill-container">
+
+                  <div className="item">
+                      <div className="info">
+                          <span className="nome">
+                                <i className="fa-solid fa-code"></i>HTML5
+                          </span>
+                          <span className="porcent">
+                                90%
+                          </span>
+                      </div>
+
+                      <div className="barra">
+                          <div className="progresso" style={{ width: '90%',}}>
+                              
+                          </div>
+                      </div>
+                  </div>
+
+
+                 <div className="item">
+                      <div className="info">
+                          <span className="nome">
+                                <i className="fa-solid fa-code"></i>CSS3
+                          </span>
+                          <span className="porcent">
+                                80%
+                          </span>
+                      </div>
+
+                      <div className="barra">
+                          <div className="progresso" style={{ width: '80%',}}>
+                              
+                          </div>
+                      </div>
+                  </div>
+
+                   <div className="item">
+                      <div className="info">
+                          <span className="nome">
+                                <i className="fa-solid fa-code"></i>JavaScript
+                          </span>
+                          <span className="porcent">
+                                75%
+                          </span>
+                      </div>
+
+                      <div className="barra">
+                          <div className="progresso" style={{ width: '75%',}}>
+                              
+                          </div>
+                      </div>
+                  </div>
+
+
+                   <div className="item">
+                      <div className="info">
+                          <span className="nome">
+                                <i className="fa-solid fa-code"></i>PHP
+                          </span>
+                          <span className="porcent">
+                                60%
+                          </span>
+                      </div>
+
+                      <div className="barra">
+                          <div className="progresso" style={{ width: '60%',}}>
+                              
+                          </div>
+                      </div>
+                  </div>
+
+
+
+                   <div className="item">
+                      <div className="info">
+                          <span className="nome">
+                                <i className="fa-solid fa-person-rays"></i>Comunicação
+                          </span>
+                          <span className="porcent">
+                                100%
+                          </span>
+                      </div>
+
+                      <div className="barra">
+                          <div className="progresso" style={{ width: '100%',}}>
+                              
+                          </div>
+                      </div>
+                  </div>
+
+                  <div className="item">
+                      <div className="info">
+                          <span className="nome">
+                                <i className="fa-solid fa-person-rays"></i>Trabalho em equipe
+                          </span>
+                          <span className="porcent">
+                                90%
+                          </span>
+                      </div>
+
+                      <div className="barra">
+                          <div className="progresso" style={{ width: '90%',}}>
+                              
+                          </div>
+                      </div>
+                  </div>
+
+                     <div className="item">
+                      <div className="info">
+                          <span className="nome">
+                                <i className="fa-solid fa-person-rays"></i>Adaptabilidade
+                          </span>
+                          <span className="porcent">
+                              80%
+                          </span>
+                      </div>
+
+                      <div className="barra">
+                          <div className="progresso" style={{ width: '80%',}}>
+                              
+                          </div>
+                      </div>
+                  </div>
+
+                  <div className="item">
+                      <div className="info">
+                          <span className="nome">
+                                <i className="fa-solid fa-person-rays"></i>Liderança
+                          </span>
+                          <span className="porcent">
+                              70%
+                          </span>
+                      </div>
+
+                      <div className="barra">
+                          <div className="progresso" style={{ width: '70%',}}>
+                              
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                  
             </article>
 
             <article id="formacao">
