@@ -75,8 +75,27 @@ function App() {
           </div>
         </section>
 
+       <section id="detalhes">
+          <article id="video">
+            <h2><i className="fa-solid fa-handshake"></i>Deixe-me Apresentar</h2>
+            <div id="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/VdWfSfWA_BQ?si=ZcOJBRz-ACX4REeO" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 
-        <section id="detalhes"></section>        
+            </div>
+            </article>  
+            <article id="skills">
+                <h2><i className="fa-solid fa-brain"></i> Minhas Skills</h2>
+            </article>
+
+            <article id="formacao">
+              <h2><i className="fa-solid fa-graduation-cap"></i>Formação</h2>
+
+            </article>
+
+            <article id="projetos">
+              <h2><i className="fa-solid fa-trowel-bricks"></i>Projetos</h2>
+            </article>
+        </section>        
       </main>
       <footer>
 
