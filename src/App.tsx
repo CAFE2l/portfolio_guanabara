@@ -48,16 +48,35 @@ function App() {
       <header>
         <nav id="menu">          
           <ul>
-            <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-trowel-bricks"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+            <li><a href="#"><i className="fa-solid fa-house"></i></a></li>
+            <li><a href="#"><i className="fa-solid fa-brain"></i></a></li>
+            <li><a href="#"><i className="fa-solid fa-graduation-cap"></i></a></li>
+            <li><a href="#"><i className="fa-solid fa-trowel-bricks"></i></a></li>
+            <li><a href="#"><i className="fa-solid fa-moon"></i></a></li>
           </ul>
         </nav>
       </header>
       <main>
-        <h1>Em breve...</h1>
+        <section id="ficha">
+          <img src="../imagens/guanabara-perfil.jpg" className="foto"></img>
+          <h1>Gustavo Guanabara</h1>
+          <p>Formado em Ciência da Computação, com especialização 
+            em docência superior, desenvolvimento web e inteligência artificial.
+            Apaixonado por tecnologia e sempre busca de novos desafios. Atualmente atuo 
+            como professor e desenvolvedor, compartilhando conhecimento através de cursos online 
+            e projetos de código aberto.
+          </p>
+          <div id="social">
+            <a href="" target="_blank" rel="nofollow"><i className="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/CAFE2l" target="_blank" rel="nofollow"><i className="fa-brands fa-github"></i></a>
+            <a href="" target="_blank" rel="nofollow"><i className="fa-brands fa-youtube"></i></a>
+            <a href="" target="_blank" rel="nofollow"><i className="fa-brands fa-twitter"></i></a>
+            <a href="" target="_blank" rel="nofollow"><i className="fa-brands fa-telegram"></i></a>
+          </div>
+        </section>
+
+
+        <section id="detalhes"></section>        
       </main>
       <footer>
 
