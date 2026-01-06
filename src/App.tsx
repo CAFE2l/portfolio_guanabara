@@ -48,11 +48,11 @@ function App() {
       <header>
         <nav id="menu">          
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Formação</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Tema</a></li>
+            <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-trowel-bricks"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
           </ul>
         </nav>
       </header>
