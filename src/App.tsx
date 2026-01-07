@@ -232,6 +232,47 @@ function App() {
                 </div>
               </div>
 
+                <div className="projeto">
+                <img src="/imagens/projeto-04-links.jpg" alt="Projeto Cordel" className="foto" />
+                <div className="projeto-info">
+                  <p className="periodo">2023</p>
+                  <h3 className="titulo">Projeto de Cordel</h3>
+                  <p>Projeto construído para treinar efeito paralax em imagens.</p>
+                  <details className="descricao">
+                    <summary>Saiba mais...</summary>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </details>
+                </div>
+              </div>
+
+              <div className="projeto">
+                <img src="/imagens/projeto-05-login.jpg" alt="Projeto Cordel" className="foto" />
+                <div className="projeto-info">
+                  <p className="periodo">2023</p>
+                  <h3 className="titulo">Projeto de Cordel</h3>
+                  <p>Projeto construído para treinar efeito paralax em imagens.</p>
+                  <details className="descricao">
+                    <summary>Saiba mais...</summary>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </details>
+                </div>
+              </div>
+
+
+
+                <div className="projeto">
+                <img src="/imagens/projeto-06-album.jpg" alt="Projeto Cordel" className="foto" />
+                <div className="projeto-info">
+                  <p className="periodo">2023</p>
+                  <h3 className="titulo">Projeto de Cordel</h3>
+                  <p>Projeto construído para treinar efeito paralax em imagens.</p>
+                  <details className="descricao">
+                    <summary>Saiba mais...</summary>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </details>
+                </div>
+              </div>
+
             </div>
           </article>
         </section>

@@ -258,24 +258,36 @@ article h2 {
 
 /* Responsividade e Layout do Projeto */
 @media screen and (min-width: 768px) {
-  .skill-container {
-    grid-template-columns: 1fr 1fr;
+  main{
+    grid-template-columns: auto 300px 1fr auto;
   }
 
-  #projeto-container .projeto {
-    flex-direction: row-reverse;
-    justify-content: space-between;
+  section#ficha{
+    grid-column: 2/3;
+    height: fit-content;
+    position: sticky;
+    top: 65px;
+
   }
 
-  #projeto-container .projeto-info {
-    max-width: 75%;
+  section#detalhes{
+    grid-column: 3/4;  
   }
 
-  #projeto-container .foto {
-    aspect-ratio: 1/1;
-    max-width: 20%;
-    max-height: 150px;
+  #projeto-container .projeto{
+      flex-direction: row-reverse;
+      justify-content: space-between;
   }
+
+  #projeto-container .projeto-info{
+    max-width: 80%;
+
+    }
+
+
+ .skill-container{
+  grid-template-columns: 1fr 1fr;
+ }
 }
 
 footer {
